@@ -85,12 +85,23 @@ h1 {
   transition: background 0.5s ease-in-out;
 }
 
-/* Add arrows */
-#timeline div::before {
+/* Add arrows base */
+#timeline div:before {
   content: '';
   position: absolute;
   bottom: 5px;
   width: 0;
   height: 0;
   border-style: solid;
+}
+
+/* right side arrows */
+#timeline ul li:nth-child(odd) div:before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+}
+
+/* Left Side arrows */
+#timeline ul li:nth-child(even) div:before {
+  left: 415px;
 }
