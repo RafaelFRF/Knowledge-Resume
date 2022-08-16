@@ -102,7 +102,6 @@ h1 {
   border-color: transparent var(--secondary-color) transparent transparent;
 }
 
-/* dufji */
 /* right side arrows */
 #timeline ul li:nth-child(even) div:before {
   left: -15px;
