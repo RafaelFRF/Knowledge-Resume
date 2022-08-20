@@ -102,7 +102,7 @@ h1 {
   border-color: transparent var(--secondary-color) transparent transparent;
 }
 
-/* right side arrows */
+/* Left side arrows */
 #timeline ul li:nth-child(even) div:before {
   left: -15px;
   border-width: 8px 0 8px 16px;
